@@ -40,6 +40,7 @@ IMAGE_INSTALL += " \
     packagegroup-base-extended \
     \
     isoblue-software \
+    isoblue-misc \
     kafka-bin \
     gpsd \
     vim \
@@ -56,6 +57,8 @@ IMAGE_INSTALL += " \
     python-kafka \
     python-avro \
     python-gps3 \
+    \
+    oracle-jse-jdk-arm32-vfp-hflt \
 "
 
 require recipes-images/images/tdx-extra.inc
